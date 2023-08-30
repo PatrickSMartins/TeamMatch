@@ -1,0 +1,46 @@
+body {
+    background-color: var(--preto);
+    
+}
+
+
+.banner {
+    display: grid;
+    gap: 1rem;
+}
+
+.sobre-plataforma {
+   color: var(--branco);
+   text-align: center;
+   padding: 3em 0;
+   margin: 0 auto;
+}
+
+.texto__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2em 0 1em;
+}
+
+.texto__paragrafo {
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.imagem__paragrafo {
+    float: right;
+    width: 120px;
+}
+
+.botao {
+    background-color: var(--fonte-principal);
+    border-radius: 2px;
+    text-decoration: none ;
+}
+
+.botao:hover {
+    transform:scale(1.2);
+    color: var(--cor-vermelho-hover);
+}
