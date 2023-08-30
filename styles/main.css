@@ -3,16 +3,10 @@ body {
     
 }
 
-
-.banner {
-    display: grid;
-    gap: 1rem;
-}
-
 .sobre-plataforma {
    color: var(--branco);
    text-align: center;
-   padding: 3em 0;
+   padding-bottom: 2em;
    margin: 0 auto;
 }
 
@@ -20,13 +14,14 @@ body {
     font-family: var(--fonte-principal);
     font-size: 2rem;
     font-weight: 600;
-    padding: 2em 0 1em;
+    padding: 1em;
 }
 
 .texto__paragrafo {
     font-family: var(--fonte-principal);
     font-size: 1em;
     font-weight: 400;
+    margin: 0 0 2rem;
 }
 
 .imagem__paragrafo {
@@ -35,12 +30,26 @@ body {
 }
 
 .botao {
-    background-color: var(--fonte-principal);
-    border-radius: 2px;
-    text-decoration: none ;
+    margin: 2em 2em;
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 0.5em 1em
 }
 
-.botao:hover {
-    transform:scale(1.2);
-    color: var(--cor-vermelho-hover);
+.botao.primario {
+    border-color: var(--cor-principal);
+    color: var(--cor-principal);
 }
+
+.botao.secundario {
+    color: var(--branco);
+    border-color: var(--cor-principal);
+    background-color: var(--cor-principal) ;
+}
+
+.banner {
+    display: grid;
+    margin-top: 1em;
+}
+
