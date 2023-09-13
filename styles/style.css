@@ -2,6 +2,7 @@
 @import url(/styles/main.css);
 @import url(/styles/footer.css);
 @import url(/styles/login.css);
+@import url(/styles/valorant.css);
 
 :root {
     --branco: #ffffff;
@@ -11,8 +12,8 @@
     --fonte-principal: font-family: 'Josefin Sans', sans-serif font-family: 'Khand', sans-serif;
     --cor-valorant-banner: #ff4655;
     --cor-cs-banner: #ffa500;
-    --cor-lol-banner: #1671e1;
-    --cor-rocket-banner: #014AA5;
+    --cor-rocket-banner: #1671e1;
+    --cor-lol-banner: #014AA5;
 }
 
 .principal {
@@ -34,9 +35,9 @@
 }
 
 .lol-banner {
-    background-color: var(--cor-rocket-banner);
+    background-color: var(--cor-lol-banner);
 }
 
 .rocket-banner {
-    background-color: var(--cor-lol-banner);
+    background-color: var(--cor-rocket-banner);
 }
