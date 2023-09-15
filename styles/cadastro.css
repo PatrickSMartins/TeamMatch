@@ -1,16 +1,17 @@
-.telaLogin{
+.box {
     color: var(--branco);
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.3);
     padding: 15px;
     border-radius: 15px;
-    width: 50%;
+    width: 80%;
 }
 
-.telaLogin h1{
+
+legend {
     border: 1px solid var(--cinza);
     padding: 10px;
     font-size: 20px;
@@ -19,7 +20,11 @@
     border-radius: 8px;
 }
 
-.telaLogin input{
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
     background: none;
     border: none;
     border-bottom: 1px solid var(--cinza);
@@ -28,4 +33,11 @@
     font-size: 15px;
     width: 100%;
     letter-spacing: 2px;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
 }

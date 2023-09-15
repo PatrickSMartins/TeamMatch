@@ -1,0 +1,10 @@
+.title{
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1em;
+    color: var(--branco);
+    margin-left: 5rem;
+}
+
+    

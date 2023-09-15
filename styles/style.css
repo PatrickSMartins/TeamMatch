@@ -2,12 +2,16 @@
 @import url(/styles/main.css);
 @import url(/styles/footer.css);
 @import url(/styles/login.css);
-
+@import url(/styles/cadastro.css);
+@import url(/styles/components/title.css);
+@import url(/styles/components/button.css);
 :root {
     --branco: #ffffff;
+    /*background: linear-gradient(to bottom, rgba(29,29,29,1) 0%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     --preto: #000000;
-    --cor-principal: #dc0000 ;
-    --cor-vermelho-hover: #b31414;
+    --cinza: #1d1d1d;
+    --cor-principal: #a80606 ;
+    --cor-vermelho-hover: #7c0606;
     --fonte-principal: font-family: 'Josefin Sans', sans-serif font-family: 'Khand', sans-serif;
     --cor-valorant-banner: #ff4655;
     --cor-cs-banner: #ffa500;
