@@ -1,5 +1,7 @@
 body {
+    font-family: var(--fonte-principal);
     background: linear-gradient(to bottom, rgba(29,29,29,1) 0%,rgba(14,14,14,1) 100%);
+    min-height: 100vh;
 }
 
 .sobrePlataforma {
