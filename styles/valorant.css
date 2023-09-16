@@ -1,11 +1,22 @@
-body {
-    background-image: url(/imagem/valorantBackground.jpeg);
+.mainValorant{
+    background-image: url(/imagem/valorantBackgroundMobile.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size:contain;
 }
 
-.titulo-valorant {
-    width: 200px;
-    margin: 10px 20%;
+.tituloValorant {
+    width: 300px;
+}
+
+.telaValorant {
+    color: var(--branco);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+    
 }

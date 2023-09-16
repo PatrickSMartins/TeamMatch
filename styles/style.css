@@ -14,7 +14,8 @@
     --cinza: #1d1d1d;
     --cor-principal: #a80606 ;
     --cor-vermelho-hover: #7c0606;
-    --fonte-principal: font-family: 'Josefin Sans', sans-serif font-family: 'Khand', sans-serif;
+    --fonte-principal: font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     --cor-valorant-banner: #ff4655;
     --cor-cs-banner: #ffa500;
     --cor-rocket-banner: #1671e1;
@@ -25,24 +26,24 @@
     padding: 1.5rem;
 }
 
-.imagens-jogos {
+.imagensJogos {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.valorant-banner {
+.valorantBanner {
     background-color: var(--cor-valorant-banner) ;
 }
 
-.cs-banner {
+.csBanner {
     background-color: var(--cor-cs-banner);
 }
 
-.lol-banner {
+.lolBanner {
     background-color: var(--cor-lol-banner);
 }
 
-.rocket-banner {
+.rocketBanner {
     background-color: var(--cor-rocket-banner);
 }

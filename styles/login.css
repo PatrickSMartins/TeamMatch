@@ -10,7 +10,7 @@
     width: 50%;
 }
 
-.telaLogin h1{
+.telaLogin h2{
     border: 1px solid var(--cinza);
     padding: 10px;
     font-size: 20px;
@@ -28,4 +28,5 @@
     font-size: 15px;
     width: 100%;
     letter-spacing: 2px;
+    
 }

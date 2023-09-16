@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Khand:wght@400;600&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <title>TeamMatch</title>
@@ -16,63 +16,37 @@
 
 <body>
     <header class="cabecalho">
+
+        <img class="logo" src="imagem/TeamMatch.jpeg" alt="Logo TeamMatch">
         <div class="container">
-            <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu">
-                <span class="cabecalho__menu-hamburguer container__imagem"></span>
-            </label>
-            <ul class="lista-menu">
-                <li class="lista-menu__item">
-                    <div class="div-hamburguer">
-                        <img class="logo-jogo-hamburguer" src="./imagem/Logo LOL.png" alt="Logo LOL">
-                        <a href="#" class="lista-menu__link">League of Legends</a>
-                    </div>
-                </li>
-                <li class="lista-menu__item">
-                    <div class="div-hamburguer">
-                        <img class="logo-jogo-hamburguer" src="./imagem/logo cs.png" alt="Logo CSGO">
-                        <a href="#" class="lista-menu__link">CS:GO</a>
-                    </div>
-                </li>
-                <li class="lista-menu__item">
-                    <div class="div-hamburguer">
-                        <img class="logo-jogo-hamburguer" src="./imagem/logo valorant.png" alt="Logo valorant">
-                        <a href="./valorant.html" class="lista-menu__link">Valorant</a>
-                    </div>
-                </li>
-                <li class="lista-menu__item">
-                    <div class="div-hamburguer">
-                        <img class="logo-jogo-hamburguer" src="./imagem/logo rocket.png" alt="Logo rocket league">
-                        <a href="#" class="lista-menu__link">Rocket League</a>
-                    </div>
-                </li>
-            </ul>
-            <img class="logo" src="imagem/TeamMatch.jpeg" alt="Logo TeamMatch">
-        </div>
-        <div class="container">
-            <a href="#"><img src="imagem/icon perfil.svg" alt="Meus perfil" class="container__imagem" ></a>                   
-        </header>
-        </div>
-        
-       <main class="principal">  
-            <section class="sobre-plataforma">
-                <h2 class="texto__titulo">TeamMatch</h2>
-                <img class="imagem__paragrafo" src="./imagem/Gamer.svg" alt="foto de uma pessoa jogando">
-                <p class="texto__paragrafo"> O TeamMatch é a sua plataforma ideal para encontrar seu time perfeito. 
-                    Nela você pode começar apertando nos botões abaixo para se cadastrar ou fazer o login,
-                     e se já esta logado, pode começar procurando alguém clicando em algum jogo!!
-                </p>
-                <a class="botao primario" href="Login.html">Login</a>
-                <a class="botao secundario" href="cadastro.html">Registrar-se</a>
-            </section>
-            <section class="banner">
-                <a class="link_jogo" href="./valorant.html"><img class="imagens-jogos valorant-banner" src="./imagem/valorant-banner.png" alt="Imagem valorant link"></a>
-                <a class="link_jogo" href="#"><img class="imagens-jogos cs-banner" src="./imagem/CS-banner.png" alt="Imagem CSGO link"></a>
-                <a class="link_jogo" href="#"><img class="imagens-jogos lol-banner" src="./imagem/lol-banner.png" alt="Imagem LOL link"></a>
-                <a class="link_jogo" href="#"><img class="imagens-jogos rocket-banner" src="./imagem/rocket-banner.png" alt="Imagem rocket league link"></a>
-            </section>       
-        </main>
-        <footer class="rodape"></footer>
+            <a href="#"><img src="imagem/icon perfil.svg" alt="Meus perfil" class="containerImagem"></a>
+    </header>
+    </div>
+
+    <main class="principal">
+        <section class="sobrePlataforma">
+            <h1 class="title">TeamMatch</h1>
+            <br>
+
+            <img class="imagemParagrafo" src="./imagem/Gamer.svg" alt="foto de uma pessoa jogando">
+            <p class="textoParagrafo"> O TeamMatch é a sua plataforma ideal para encontrar seu time perfeito.
+                Nela você pode começar apertando nos botões abaixo para se cadastrar ou fazer o login,
+                e se já esta logado, pode começar procurando alguém clicando em algum jogo!!
+            </p>
+            <a class="botao primario" href="login.html">Login</a>
+            <a class="botao secundario" href="cadastro.html">Registrar-se</a>
+        </section>
+        <section class="banner">
+            <a class="linkJogo" href="./valorant.html"><img class="imagensJogos valorantBanner"
+                    src="./imagem/valorant-banner.png" alt="Imagem valorant link"></a>
+            <a class="linkJogo" href="#"><img class="imagensJogos csBanner" src="./imagem/CS-banner.png"
+                    alt="Imagem CSGO link"></a>
+            <a class="linJogo" href="#"><img class="imagensJogos lolBanner" src="./imagem/lol-banner.png"
+                    alt="Imagem LOL link"></a>
+            <a class="linkJogo" href="#"><img class="imagensJogos rocketBanner" src="./imagem/rocket-banner.png"
+                    alt="Imagem rocket league link"></a>
+        </section>
+    </main>
 </body>
 
 </html>
