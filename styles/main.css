@@ -3,6 +3,9 @@ body {
     background: linear-gradient(to bottom, rgba(29,29,29,1) 0%,rgba(14,14,14,1) 100%);
     min-height: 100vh;
 }
+.menu {
+    display: none;
+}
 
 .sobrePlataforma {
    color: var(--branco);
@@ -27,7 +30,8 @@ body {
 
 .imagemParagrafo {
     float: right;
-    width: 120px;
+    width: 100px;
+    padding-left: 0.5rem;
 }
 
 .botao {
@@ -63,4 +67,25 @@ body {
     display: block;
     border-radius: 5px;
     overflow: hidden;
+}
+
+@media screen and (min-width:1440px) {
+    .menu {
+        display: block;
+        background-color: grey;
+    }
+
+    .imagemParagrafo {
+        display: none;
+    }
+
+    .banner {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        width: 50%;
+        align-items: center;
+        margin: 5rem 0 0 20rem
+    }
+
+
 }
