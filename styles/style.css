@@ -22,14 +22,12 @@
     --cor-lol-banner: #014AA5;
 }
 
-.principal {
-    padding: 1.5rem;
-}
+
 
 .imagensJogos {
-    display: block;
-    width: 100%;
+    width: 80%;
     height: auto;
+    border-radius: 10px;
 }
 
 .valorantBanner {
@@ -42,8 +40,17 @@
 
 .lolBanner {
     background-color: var(--cor-lol-banner);
+
 }
 
 .rocketBanner {
     background-color: var(--cor-rocket-banner);
+}
+
+@media screen and (min-width:1440px) {
+    .imagensJogos {
+        display: block;
+        width: 100%;
+        height: 150px;
+    }
 }
