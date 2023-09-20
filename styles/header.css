@@ -16,10 +16,6 @@
     transform: translate(-50%, -50%);
 }
 
-.containerBotao{
-    display: none;
-}
-
 .logo {
     width: 85px;
     position: absolute;
