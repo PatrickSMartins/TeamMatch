@@ -67,12 +67,14 @@ body {
 
 @media screen and (min-width:1440px) {
     .menu {
+        color: var(--branco);
         display: flex;
         position: relative;
         
     }
 
     .menu .sidebar {
+        color: var(--branco);
         position: fixed;
         width: 200px;
         height: 100%;
@@ -81,6 +83,7 @@ body {
     }
 
     .menu .sidebar ul li {
+        color: var(--branco);
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
@@ -90,6 +93,7 @@ body {
     }
 
     .menu .sidebar ul li img {
+        color: var(--branco);
         padding-right: 5px;
         width: 30px;
     }
