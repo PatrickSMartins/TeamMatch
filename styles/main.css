@@ -65,7 +65,7 @@ body {
     overflow: hidden;
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
     .menu {
         color: var(--branco);
         display: flex;
@@ -139,7 +139,7 @@ body {
         grid-template-columns: 2fr 2fr;
         width: 50%;
         align-items: center;
-        margin: 5rem 0 0 30rem;
+        margin: 5rem 0 0 28rem;
     }
 
     .title {
@@ -150,3 +150,24 @@ body {
     }
 
 }
+
+@media screen and (min-width: 1600px) {
+    
+
+    .textoParagrafo {
+        display: flex;
+        justify-content: right;
+        margin-right: 25em;
+    } 
+
+    .botao.primario {
+        float: center;
+        margin: 20rem 0 0 5rem;
+    }
+
+    .banner {
+        margin: 5rem 0 0 30rem;
+    }
+
+}
+
