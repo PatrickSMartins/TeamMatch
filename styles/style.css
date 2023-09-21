@@ -53,4 +53,20 @@
         width: 100%;
         height: 150px;
     }
+
+    .valorantBanner:hover {
+        opacity: 0.8;
+    }
+
+    .csBanner:hover {
+        opacity: 0.8;
+    }
+
+    .lolBanner:hover {
+        opacity: 0.8;
+    }
+
+    .rocketBanner:hover {
+        opacity: 0.8;
+    }
 }

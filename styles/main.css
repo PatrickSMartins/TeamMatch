@@ -55,7 +55,7 @@ body {
     grid-template-columns: 1fr;
     grid-auto-flow: rows;
     grid-gap: 10px;
-    margin-top: 2em;
+    margin: 2em 2em
 }
 
 .linkJogo {
@@ -115,18 +115,38 @@ body {
         text-decoration: none;
     }
 
+    .textoParagrafo {
+        display: flex;
+        justify-content: right;
+        margin-right: 5em;
+    } 
+
+    .botao.primario {
+        float: center;
+        margin: 20rem 0 0 15rem;
+    }
+
+    .botao.primario:hover {
+        opacity: 0.5;
+    }
+
+    .botao.secundario:hover {
+        opacity: 0.5;
+    }
+
     .banner {
         display: grid;
         grid-template-columns: 2fr 2fr;
         width: 50%;
         align-items: center;
-        margin: 5rem 0 0 20rem
+        margin: 5rem 0 0 30rem;
     }
 
     .title {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin: 1rem 0 0 6rem;
     }
 
 }
