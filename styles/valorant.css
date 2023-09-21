@@ -14,8 +14,8 @@
 .telaValorant {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .boxValorant{
@@ -23,7 +23,14 @@
     padding: 15px;
     border-radius: 15px;
     width: 80%;
+    width: 300px;
+    margin: 5px 0px;
 
+}
+
+.logoValorant {
+    width: 300px;
+    margin-left: 50px;
 }
 
 
