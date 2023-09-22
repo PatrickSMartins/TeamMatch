@@ -42,9 +42,23 @@
     display:flex;
     align-items: center;
     flex-flow: row wrap;
-    justify-content:start;
+    justify-content: start;
 }
 
+.descricaoValorant {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5px;
+}
+
+.descricaoValorant img {
+    width: 30px;
+}
+
+.jogadorNome {
+    margin: 10px;
+    color: var(--braco);
+}
 
 
 
