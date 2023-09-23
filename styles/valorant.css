@@ -1,24 +1,26 @@
-.bodyValorant{
-    background:rgba(0, 0, 0, 0.7) url(/imagem/valorantBackgroundMobile.jpeg);
-    background-repeat:no-repeat;
-    background-size:cover;
+.bodyValorant {
+    background: rgba(0, 0, 0, 0.7) url(/imagem/valorantBackgroundMobile.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-blend-mode: darken;
     font-family: var(--fonte-principal);
     color: white;
-    
+
+
 }
 
 .telaValorant {
-    display:flex;
+    display: flex;
     align-items: center;
     flex-flow: column wrap;
     justify-content: space-around;
+    gap: 50px;
 }
 
 
-.boxValorant{
+.boxValorant {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     border-radius: 15px;
@@ -29,119 +31,92 @@
 }
 
 .logoValorant {
-    width: 300px;
+    width: 400px;
+
 }
 
-.jogadoresValorant {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 15px;
-    border-radius: 15px;
-    width: 80%;
-    width: 300px;
-    margin: 5px 0px;
-    display:flex;
-    align-items: center;
-    flex-flow: row wrap;
-    justify-content: start;
+.tituloValorant {
+    font-size: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.logoRanque {
+    width: 40px;
+    margin-right: 8px;
+}
+
+.logoPerfil {
+    margin-right: 8px;
 }
 
 .descricaoValorant {
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 5px;
+    font-size: 12px;
 }
 
-.descricaoValorant img {
-    width: 30px;
-}
-
-.jogadorNome {
-    margin: 10px;
-    color: var(--braco);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.bodyValorant{
-    background:rgba(0, 0, 0, 0.7) url(/imagem/valorantBackgroundMobile.jpeg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-blend-mode: darken;
-    
-}
-
-.boxValorant {
-    font-family: var(--fonte-principal);
-    color: var(--branco);
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.cardValorant {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     border-radius: 15px;
-    width: 80%;
-}
-.logoValorant{
-    width: 400px;
-    position: relative;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -30%);
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
 }
 
-.title {
-    margin: 0em 0.5 1em 1em;
-    position: relative;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -30%);
+.headValorant {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
 }
 
-.logoPerfil{
-    position:relative;
-    top: -10px;
-    float: left;
+.botaoValorant {
+    background: linear-gradient(to bottom, #a90329 0%, #8f0222 44%, #6d0019 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.boxValorant h2{
-    margin: 10px;
-    top: -10px;
-    float: left;
-    position: relative;
-}
 
-.boxValorant p {
-    position: relative;
-    float: left;
-    margin: 2em 0.5em;
-    left: -50%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

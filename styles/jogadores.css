@@ -1,0 +1,26 @@
+.telaJogadores {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.containerJogadores {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+
+}
+
+.bannerJogadores{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 80%;
+    width: 300px;
+    margin: 5px 0px;
+
+}
