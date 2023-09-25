@@ -24,3 +24,24 @@
     margin: 5px 0px;
 
 }
+
+.voltar {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1440px) {
+    .containerJogadores {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .bannerJogadores {
+        margin: 5px 10px;
+    }
+
+    .voltar {
+        width: 50px;
+        justify-content: center;
+        margin: 20px 90%;
+    }
+}
