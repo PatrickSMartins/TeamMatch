@@ -69,7 +69,7 @@ body {
     .menu {
         color: var(--branco);
         display: flex;
-        position: relative;
+        position: fixed;
 
         
     }
