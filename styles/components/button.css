@@ -9,6 +9,7 @@
     font-size: 15px;
     cursor: pointer;
     text-decoration: none;
+    margin-bottom: 10px;
 }
 
 .button:hover{
